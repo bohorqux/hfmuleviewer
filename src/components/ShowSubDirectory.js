@@ -11,7 +11,7 @@ class ShowSubDirectory extends React.Component {
 
     componentDidUpdate() {
         if (this.props.match.params.tree_sha !== this.state.sha) {
-            this.loadData();
+            //this.loadData();
         }
     }
 
